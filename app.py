@@ -3,8 +3,6 @@ from kivy.app import App
 from kivy.uix.button import Button
 from kivy.uix.label import Label
 from kivy.uix.boxlayout import BoxLayout
-import os
-os.environ["JAVA_HOME"] = r"C:\Program Files\Java\jdk-21\bin"
 from jnius import autoclass
 from jnius import cast
 from threading import Thread
