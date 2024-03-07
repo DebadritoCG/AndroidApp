@@ -24,6 +24,9 @@ source.include_exts = py,png,jpg,kv,atlas
 # (list) List of directory to exclude (let empty to not exclude anything)
 #source.exclude_dirs = tests, bin, venv
 
+android.accept_sdk_license = True
+android.skip_update = False
+
 # (list) List of exclusions using pattern matching
 # Do not prefix with './'
 #source.exclude_patterns = license,images/*/*.jpg
